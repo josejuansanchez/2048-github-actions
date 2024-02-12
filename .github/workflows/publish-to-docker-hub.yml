@@ -6,14 +6,10 @@ name: Publish image to Docker Hub
 # documentation.
 
 on:
-  schedule:
-    - cron: '35 9 * * *'
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 
 env:
