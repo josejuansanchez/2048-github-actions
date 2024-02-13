@@ -1,6 +1,6 @@
 # 2048-github-actions
 
-Ejemplo de cómo utilizar [GitHub Actions][1] para publicar una imagen Docker en Docker Hub.
+Ejemplo de cómo utilizar [GitHub Actions][1] para publicar una imagen [Docker][2] en [Docker Hub][3].
 
 [1]: https://docs.github.com/es/actions
 [2]: https://www.docker.com
